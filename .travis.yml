@@ -18,6 +18,6 @@ jobs:
       provider: pypi
       user: Madoshakalaka
       password:
-        #secure: encrypted password
+        secure: PbndSyUZaKWVJIFOY7q13qwmoDPlBzAkoP/ITiWUpkOoWgSykZBksILu99jEdmyG76XiO0QbF5+uY+edMOo4llIcK5VJL5ZigQ+LqKHvZCpE25lVINtE95Dj9hi4ZA6xol0RnXagVKS9mxv0/i+YEsgIwARHsTkNc7+39H7afp2vs7pXJUrY0qteeFdvM5vl6ZBG1v9sEf4J6/zetZtqKYmMWG3O+/YgWuY2K4p6HLKkZ2niKjbBvwzwVplw4jfNMzjGCLbeV4qdB9vt2l7Y+bF5gbU18RT9bcBQW9rt8gvUG5LKf7J/uAZgpuxc2ezHCuRusM7JWkinbGSHvKg7aoXqtIAuNYQf6rrEBndrd03PI0k++M+ESMHAJie3oAsa3pU1h+9qt4PVJVWpjbqzVJV0BGRBoMtGUCja5mRrArTIGmASYbqparvAC5slwTTPruRwr3TW+4zDdsgf+oE12vPk38SbgwMi9o+tHkACn6ECRIISSjiR7lCvkXijRcErEVMufmJk3kV7PbcpC88m5R1wnBXdbEyATRfxr+RY1qSvFwjf4RaI4mnXut5WGLXZJSl6baecK15rpkPFEqdM3K4EpuCmPie1E2LNR1xuUThwb58rgLcMgC12HdvAtPzu//Agvxl6dychjij6wJm4ceptOM0eovUTSMk8GZUdjQg=
       on:
         tags: true
