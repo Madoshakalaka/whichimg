@@ -233,11 +233,11 @@ class ImageTeller:
         absolute_diff = cv2.absdiff(this_img, that_img)
         mask = np.any(absolute_diff != [0, 0, 0], axis=-1)
         nonzero_r_c = np.where(mask)
-        if not np.any(nonzero_r_c):
-            cv2.imshow('this', this_img)
-            cv2.imshow('that', that_img)
-            cv2.waitKey()
-            cv2.destroyAllWindows()
+        # if not np.any(nonzero_r_c):
+        #     cv2.imshow('this', this_img)
+        #     cv2.imshow('that', that_img)
+        #     cv2.waitKey()
+        #     cv2.destroyAllWindows()
 
         assert np.any(nonzero_r_c), "Got identical images"
 
