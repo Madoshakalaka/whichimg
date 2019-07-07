@@ -54,7 +54,7 @@ class ImageTeller:
         :param possible_images: a list of numpy images
         :param surprises: whether the image teller will encounter unknown images. Setting it to False will give an roughly 10% performance increase.
         """
-        assert len(possible_images) >= 2, "Please provide a list of at least two images as an argument"
+        assert len(possible_images) >= 1, "Please provide a list of at least one image as an argument"
 
         self._surprises = surprises
 

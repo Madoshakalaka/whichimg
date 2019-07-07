@@ -84,7 +84,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_instance_creation(self):
         repeat = 5
-        for i in range(2, len(ALL_IMAGES)):
+        for i in range(1, len(ALL_IMAGES)):
             for j in range(repeat):
                 images = get_random_images(i)
                 t = ImageTeller(images)
