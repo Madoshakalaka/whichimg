@@ -44,6 +44,8 @@ Procedure = Tuple[Tuple[int, int], np.ndarray, np.ndarray, Set[int],
 
 
 class ImageTeller:
+    _shapeToImgIndexes: Dict[Tuple[int, int], List[int]]
+
     def __init__(self, possible_images: List[np.ndarray], surprises = True):
         """
         An ImageTeller analyzes a list of given images upon creation to know their differences.
@@ -58,7 +60,7 @@ class ImageTeller:
 
         self._possible_images = possible_images
 
-        self._shapeToImgIndexes: Dict[Tuple[int, int], List[int]] = dict()
+        self._shapeToImgIndexes = dict()
 
         for index, img in enumerate(possible_images):
             if img.shape[2] != 3:
