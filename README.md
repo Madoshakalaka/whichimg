@@ -33,7 +33,7 @@ def naive_tell(images, sample_img):
             return i
     return -1
 
-naive_tell([img1, img2, img3, img4])
+naive_tell([img1, img2, img3, img4], secret_img)
 ```
 
 
