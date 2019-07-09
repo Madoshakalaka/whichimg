@@ -11,7 +11,6 @@ from typing import List, Tuple, Dict
 import numpy as np
 from cv2 import cv2
 
-from whichimg import main
 from whichimg.main import ImageTeller
 
 FILE_DIR = os.path.dirname(__file__)
